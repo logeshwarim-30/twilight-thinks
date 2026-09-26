@@ -1,0 +1,15 @@
+{
+  "name": "twilight-thinks",
+  "version": "1.0.0",
+  "description": "TWILIGHT THINKS — Premium Black Semi-Permanent Tattoo E-Commerce Platform",
+  "scripts": {
+    "dev": "concurrently -k -p \"[{name}]\" -n \"SERVER,CLIENT\" -c \"magenta,cyan\" \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "client": "npm --prefix client run dev",
+    "server": "npm --prefix server run dev",
+    "build": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

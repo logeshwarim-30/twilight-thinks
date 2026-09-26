@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    --bg-primary: #050505;
+    --bg-secondary: #080808;
+    --bg-card: #0D0D0D;
+    --bg-panel: #0B0B0B;
+
+    --blood-red: #8B0000;
+    --blood-red-light: #A30000;
+    --blood-red-dark: #5C0000;
+    --blood-red-bright: #B11226;
+
+    --gold: #D4AF37;
+    --gold-primary: #C9A227;
+    --gold-dark: #B8860B;
+    --gold-light: #E0C36E;
+    --gold-border: rgba(201, 162, 39, 0.25);
+
+    --text-primary: #F5F5F5;
+    --text-secondary: #B8B8B8;
+    --text-muted: #777777;
+  }
+
+  body {
+    background-color: #050505;
+    color: #F5F5F5;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  /* Custom Sleek Dark Scrollbar with subtle Gold/Blood accents */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #050505;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #252525;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8B0000;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 20px rgba(212, 175, 55, 0.35);
+  }
+  .text-glow-red {
+    text-shadow: 0 0 20px rgba(139, 0, 0, 0.45);
+  }
+  .border-subtle {
+    border-color: #252525;
+  }
+  .border-gold-subtle {
+    border-color: rgba(201, 162, 39, 0.25);
+  }
+  .border-blood-subtle {
+    border-color: rgba(139, 0, 0, 0.35);
+  }
+  .glass-dark {
+    background: rgba(8, 8, 8, 0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+  .glass-nav {
+    background: rgba(5, 5, 5, 0.92);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+}
+
+/* Custom Tattoo Grid Canvas Grid */
+.tattoo-preview-bg {
+  background-image: radial-gradient(rgba(212, 175, 55, 0.15) 1px, transparent 1px);
+  background-size: 20px 20px;
+}

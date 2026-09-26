@@ -1,0 +1,2297 @@
+{
+  "users": [
+    {
+      "_id": "usr_admin_001",
+      "name": "Twilight Master Admin",
+      "email": "admin@twilightthinks.com",
+      "phone": "+91 99999 88888",
+      "password": "$2a$10$ZwKrFDphLQk5jS7vUluINeL6vGK3Qgho6.HA8HvMKhdhG5Rf7Vr5K",
+      "role": "admin",
+      "addresses": [],
+      "wishlist": [],
+      "createdAt": "2026-09-24T03:34:34.098Z"
+    },
+    {
+      "_id": "usr_cust_001",
+      "name": "Aarav Mehta",
+      "email": "customer@twilightthinks.com",
+      "phone": "+91 98765 43210",
+      "password": "$2a$10$D7x9WO7OrzcFORa4dAaVdu7IUGGMU8OA7UcYiky2DRgHHRgeQHcrG",
+      "role": "customer",
+      "addresses": [
+        {
+          "_id": "addr_001",
+          "fullName": "Aarav Mehta",
+          "phone": "+91 98765 43210",
+          "street": "402 Highline Towers, Pali Hill",
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "pincode": "400050",
+          "isDefault": true
+        }
+      ],
+      "wishlist": [
+        "prd_001",
+        "prd_003"
+      ],
+      "createdAt": "2026-09-24T03:34:34.099Z"
+    }
+  ],
+  "products": [
+    {
+      "_id": "prd_1790414184488",
+      "name": "JAPANESE DRAGON TATTOO",
+      "slug": "japanese-dragon-tattoo",
+      "description": "A harbinger of mystery and arcane wisdom. Features expansive flight feathers and intricate plumage texture that sinks deep into the epidermal surface. WaterprooF",
+      "price": 399,
+      "comparePrice": 599,
+      "discount": 33,
+      "images": [
+        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-26-144351-1790414102175-14192.png",
+        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-26-144520-1790414127749-955590.png"
+      ],
+      "category": "Dark",
+      "gender": "Unisex",
+      "placement": [
+        "Arm",
+        "Wrist"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "tags": [
+        "dark",
+        "editorial"
+      ],
+      "stock": 50,
+      "sku": "TT-184488",
+      "rating": 4.8,
+      "reviewCount": 0,
+      "featured": true,
+      "trending": true,
+      "newArrival": true,
+      "bestSeller": true,
+      "available": true,
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:16:24.488Z",
+      "updatedAt": "2026-09-26T09:16:24.488Z"
+    },
+    {
+      "_id": "prd_001",
+      "name": "Midnight Serpent",
+      "slug": "midnight-serpent",
+      "description": "An intricately coiled viper rendered in hyper-fine stipple shading. Represents eternal rebirth, nocturnal intuition, and quiet lethal grace. Formulated with 100% plant-based Genipa Americana fruit juice for an authentic deep midnight matte finish lasting 10 to 15 days.",
+      "price": 399,
+      "comparePrice": 599,
+      "discount": 33,
+      "images": [
+        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-25-214238-1790352801179-704626.png",
+        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-25-214307-1790352807166-822674.png"
+      ],
+      "category": "Dark",
+      "gender": "Unisex",
+      "placement": [
+        "Arm",
+        "Wrist",
+        "Neck"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "tags": [
+        "serpent",
+        "dark",
+        "snake",
+        "bestseller",
+        "minimal"
+      ],
+      "stock": 85,
+      "sku": "TT-PRD-001",
+      "rating": 4.9,
+      "reviewCount": 124,
+      "featured": true,
+      "trending": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.099Z",
+      "updatedAt": "2026-09-25T16:13:29.914Z",
+      "available": true
+    },
+    {
+      "_id": "prd_002",
+      "name": "Shadow Raven",
+      "slug": "shadow-raven",
+      "description": "A harbinger of mystery and arcane wisdom. Features expansive flight feathers and intricate plumage texture that sinks deep into the epidermal surface. Waterproof, sweat-proof, and designed to look indistinguishable from fresh needlework.",
+      "price": 449,
+      "comparePrice": 649,
+      "discount": 31,
+      "images": [
+        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-25-214518-1790352955984-270113.png",
+        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-25-214544-1790352962953-176428.png"
+      ],
+      "category": "Dark",
+      "gender": "Unisex",
+      "placement": [
+        "Shoulder",
+        "Chest",
+        "Back"
+      ],
+      "sizes": [
+        "Medium",
+        "Large"
+      ],
+      "tags": [
+        "raven",
+        "gothic",
+        "bird",
+        "dark"
+      ],
+      "stock": 42,
+      "sku": "TT-PRD-002",
+      "rating": 4.8,
+      "reviewCount": 98,
+      "featured": true,
+      "trending": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.099Z",
+      "updatedAt": "2026-09-25T16:16:05.932Z",
+      "available": true
+    },
+    {
+      "_id": "prd_003",
+      "name": "Lunar Wolf",
+      "slug": "lunar-wolf",
+      "description": "A stylized predator howling into crescent phases of the moon. Blends Norse mythology with clean editorial linework. Perfectly suited for forearm and calf placements.",
+      "price": 499,
+      "comparePrice": 699,
+      "discount": 28,
+      "images": [
+        "https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Men",
+      "gender": "Men",
+      "placement": [
+        "Arm",
+        "Chest",
+        "Back"
+      ],
+      "sizes": [
+        "Medium",
+        "Large"
+      ],
+      "tags": [
+        "wolf",
+        "moon",
+        "nature",
+        "mythology"
+      ],
+      "stock": 35,
+      "sku": "TT-PRD-003",
+      "rating": 4.9,
+      "reviewCount": 110,
+      "featured": true,
+      "trending": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.099Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_004",
+      "name": "Broken Halo",
+      "slug": "broken-halo",
+      "description": "An ethereal splintered aureole floating above shattered thorns. A provocative study on duality, perfection, and rebellious self-expression. Razor-sharp fine lines that develop gradually over 24-36 hours.",
+      "price": 349,
+      "comparePrice": 499,
+      "discount": 30,
+      "images": [
+        "https://images.unsplash.com/photo-1560707303-4e980ce876ad?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Minimal",
+      "gender": "Unisex",
+      "placement": [
+        "Neck",
+        "Wrist",
+        "Finger"
+      ],
+      "sizes": [
+        "Small",
+        "Medium"
+      ],
+      "tags": [
+        "halo",
+        "minimal",
+        "angelic",
+        "edgy"
+      ],
+      "stock": 92,
+      "sku": "TT-PRD-004",
+      "rating": 4.7,
+      "reviewCount": 76,
+      "featured": false,
+      "trending": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_005",
+      "name": "Silent Blade",
+      "slug": "silent-blade",
+      "description": "A dagger piercing a bruised peony, surrounded by descending droplets of ink. Embodying courage, loyalty, and calculated intent. High contrast black ink that responds naturally to your skin pH.",
+      "price": 399,
+      "comparePrice": 549,
+      "discount": 27,
+      "images": [
+        "https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Dark",
+      "gender": "Unisex",
+      "placement": [
+        "Arm",
+        "Ankle",
+        "Wrist"
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "tags": [
+        "dagger",
+        "blade",
+        "flower",
+        "dark"
+      ],
+      "stock": 64,
+      "sku": "TT-PRD-005",
+      "rating": 4.8,
+      "reviewCount": 88,
+      "featured": true,
+      "trending": false,
+      "newArrival": true,
+      "bestSeller": false,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_006",
+      "name": "Japanese Oni",
+      "slug": "japanese-oni",
+      "description": "Fierce traditional Japanese demon mask with curved horns, exposed fangs, and flowing tempest clouds. Authentic Irezumi aesthetic scaled for dramatic modern fashion statements.",
+      "price": 549,
+      "comparePrice": 799,
+      "discount": 31,
+      "images": [
+        "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Japanese",
+      "gender": "Men",
+      "placement": [
+        "Arm",
+        "Chest",
+        "Back"
+      ],
+      "sizes": [
+        "Medium",
+        "Large"
+      ],
+      "tags": [
+        "japanese",
+        "oni",
+        "demon",
+        "mask",
+        "irezumi"
+      ],
+      "stock": 28,
+      "sku": "TT-PRD-006",
+      "rating": 5,
+      "reviewCount": 145,
+      "featured": true,
+      "trending": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_007",
+      "name": "Dark Phoenix",
+      "slug": "dark-phoenix",
+      "description": "Immortal firebird bursting from obsidian ashes with sweeping wing feathers and smoke trails. Dramatic movement engineered for shoulder or back contouring.",
+      "price": 529,
+      "comparePrice": 749,
+      "discount": 29,
+      "images": [
+        "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Dark",
+      "gender": "Unisex",
+      "placement": [
+        "Back",
+        "Shoulder",
+        "Chest"
+      ],
+      "sizes": [
+        "Large"
+      ],
+      "tags": [
+        "phoenix",
+        "fire",
+        "rebirth",
+        "large"
+      ],
+      "stock": 19,
+      "sku": "TT-PRD-007",
+      "rating": 4.9,
+      "reviewCount": 64,
+      "featured": true,
+      "trending": false,
+      "newArrival": false,
+      "bestSeller": false,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_008",
+      "name": "Celestial Eye",
+      "slug": "celestial-eye",
+      "description": "The all-seeing eye of Horus nested within geometric planetary orbits and celestial coordinates. A talisman of hyper-perception and cosmic balance.",
+      "price": 369,
+      "comparePrice": 499,
+      "discount": 26,
+      "images": [
+        "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1560707303-4e980ce876ad?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Spiritual",
+      "gender": "Unisex",
+      "placement": [
+        "Wrist",
+        "Neck",
+        "Arm"
+      ],
+      "sizes": [
+        "Small",
+        "Medium"
+      ],
+      "tags": [
+        "celestial",
+        "eye",
+        "geometry",
+        "spiritual"
+      ],
+      "stock": 73,
+      "sku": "TT-PRD-008",
+      "rating": 4.8,
+      "reviewCount": 92,
+      "featured": false,
+      "trending": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_009",
+      "name": "Wild Rose",
+      "slug": "wild-rose",
+      "description": "Botanical perfection featuring thorned stems, unfurling dark petals, and realistic micro-shading. Elegant and rebellious all at once.",
+      "price": 349,
+      "comparePrice": 499,
+      "discount": 30,
+      "images": [
+        "https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1560707303-4e980ce876ad?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Women",
+      "gender": "Women",
+      "placement": [
+        "Wrist",
+        "Arm",
+        "Ankle",
+        "Neck"
+      ],
+      "sizes": [
+        "Small",
+        "Medium"
+      ],
+      "tags": [
+        "rose",
+        "floral",
+        "botanical",
+        "fine-line"
+      ],
+      "stock": 88,
+      "sku": "TT-PRD-009",
+      "rating": 4.9,
+      "reviewCount": 156,
+      "featured": true,
+      "trending": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_010",
+      "name": "Black Moth",
+      "slug": "black-moth",
+      "description": "Deaths-head hawkmoth with skull insignia on thorax and ornate symmetrical wings. A classic dark aesthetic symbol of transformation and night flights.",
+      "price": 429,
+      "comparePrice": 599,
+      "discount": 28,
+      "images": [
+        "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Dark",
+      "gender": "Unisex",
+      "placement": [
+        "Chest",
+        "Arm",
+        "Neck"
+      ],
+      "sizes": [
+        "Medium",
+        "Large"
+      ],
+      "tags": [
+        "moth",
+        "skull",
+        "goth",
+        "symmetry"
+      ],
+      "stock": 50,
+      "sku": "TT-PRD-010",
+      "rating": 4.8,
+      "reviewCount": 103,
+      "featured": true,
+      "trending": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_011",
+      "name": "Eternal Flame",
+      "slug": "eternal-flame",
+      "description": "Stylized neo-tribal flame contours dancing in fluid black symmetry. Dynamic Gen-Z editorial piece made for fingers, wrist, or collarbone.",
+      "price": 299,
+      "comparePrice": 420,
+      "discount": 28,
+      "images": [
+        "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1560707303-4e980ce876ad?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Minimal",
+      "gender": "Unisex",
+      "placement": [
+        "Finger",
+        "Wrist",
+        "Neck"
+      ],
+      "sizes": [
+        "Small",
+        "Medium"
+      ],
+      "tags": [
+        "flame",
+        "tribal",
+        "y2k",
+        "minimal"
+      ],
+      "stock": 120,
+      "sku": "TT-PRD-011",
+      "rating": 4.7,
+      "reviewCount": 82,
+      "featured": false,
+      "trending": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_012",
+      "name": "Shadow Dragon",
+      "slug": "shadow-dragon",
+      "description": "Eastern coiled celestial dragon with scaly serpentine body, razor claws, and whisker ribbons. Dramatic full forearm piece.",
+      "price": 549,
+      "comparePrice": 799,
+      "discount": 31,
+      "images": [
+        "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Japanese",
+      "gender": "Men",
+      "placement": [
+        "Arm",
+        "Back",
+        "Chest"
+      ],
+      "sizes": [
+        "Large"
+      ],
+      "tags": [
+        "dragon",
+        "japanese",
+        "mythical",
+        "sleeve"
+      ],
+      "stock": 22,
+      "sku": "TT-PRD-012",
+      "rating": 4.9,
+      "reviewCount": 138,
+      "featured": true,
+      "trending": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_013",
+      "name": "Minimal Snake",
+      "slug": "minimal-snake",
+      "description": "Crisp single continuous line silhouette of a graceful serpent. Understated, hypnotic, and exceptionally clean on the fingers or collarbone.",
+      "price": 279,
+      "comparePrice": 399,
+      "discount": 30,
+      "images": [
+        "https://images.unsplash.com/photo-1560707303-4e980ce876ad?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Minimal",
+      "gender": "Women",
+      "placement": [
+        "Finger",
+        "Wrist",
+        "Ankle"
+      ],
+      "sizes": [
+        "Small"
+      ],
+      "tags": [
+        "snake",
+        "single-line",
+        "minimal",
+        "finger-tattoo"
+      ],
+      "stock": 150,
+      "sku": "TT-PRD-013",
+      "rating": 4.8,
+      "reviewCount": 94,
+      "featured": false,
+      "trending": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_014",
+      "name": "Moon Phase",
+      "slug": "moon-phase",
+      "description": "The seven lunar transitions aligned linearly from new moon to full moon. A tribute to cyclical transformation and nocturnal stillness.",
+      "price": 389,
+      "comparePrice": 499,
+      "discount": 22,
+      "images": [
+        "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Women",
+      "gender": "Women",
+      "placement": [
+        "Arm",
+        "Back",
+        "Chest"
+      ],
+      "sizes": [
+        "Medium",
+        "Large"
+      ],
+      "tags": [
+        "lunar",
+        "moon",
+        "phases",
+        "celestial"
+      ],
+      "stock": 67,
+      "sku": "TT-PRD-014",
+      "rating": 4.9,
+      "reviewCount": 167,
+      "featured": true,
+      "trending": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_015",
+      "name": "Fallen Angel",
+      "slug": "fallen-angel",
+      "description": "Black feather wings cast in dramatic sorrowful descent with weeping statuesque silhouette. Renaissance chiaroscuro rendered in tattoo ink.",
+      "price": 499,
+      "comparePrice": 699,
+      "discount": 28,
+      "images": [
+        "https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Dark",
+      "gender": "Unisex",
+      "placement": [
+        "Back",
+        "Chest",
+        "Shoulder"
+      ],
+      "sizes": [
+        "Medium",
+        "Large"
+      ],
+      "tags": [
+        "angel",
+        "wings",
+        "fallen",
+        "gothic"
+      ],
+      "stock": 31,
+      "sku": "TT-PRD-015",
+      "rating": 4.8,
+      "reviewCount": 84,
+      "featured": false,
+      "trending": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_016",
+      "name": "Sacred Geometry",
+      "slug": "sacred-geometry",
+      "description": "Metatrons cube interlocked with golden ratio spirals and isometric dimensional vertices. Precision line stability guaranteed.",
+      "price": 449,
+      "comparePrice": 599,
+      "discount": 25,
+      "images": [
+        "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1560707303-4e980ce876ad?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Spiritual",
+      "gender": "Unisex",
+      "placement": [
+        "Arm",
+        "Chest",
+        "Back"
+      ],
+      "sizes": [
+        "Medium",
+        "Large"
+      ],
+      "tags": [
+        "geometry",
+        "sacred",
+        "metatron",
+        "lines"
+      ],
+      "stock": 46,
+      "sku": "TT-PRD-016",
+      "rating": 4.7,
+      "reviewCount": 61,
+      "featured": false,
+      "trending": false,
+      "newArrival": true,
+      "bestSeller": false,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_017",
+      "name": "Samurai Spirit",
+      "slug": "samurai-spirit",
+      "description": "Weathered Kabuto helmet and crossed katana swords enclosed by stylized cherry blossom crest. The way of Bushido written in ink.",
+      "price": 519,
+      "comparePrice": 749,
+      "discount": 31,
+      "images": [
+        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-25-213921-1790352570935-993373.png",
+        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-25-214002-1790352610519-313619.png"
+      ],
+      "category": "Japanese",
+      "gender": "Men",
+      "placement": [
+        "Arm",
+        "Back"
+      ],
+      "sizes": [
+        "Large"
+      ],
+      "tags": [
+        "samurai",
+        "katana",
+        "warrior",
+        "japanese"
+      ],
+      "stock": 26,
+      "sku": "TT-PRD-017",
+      "rating": 5,
+      "reviewCount": 112,
+      "featured": true,
+      "trending": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-25T16:10:14.155Z",
+      "available": true
+    },
+    {
+      "_id": "prd_018",
+      "name": "Thunder Mark",
+      "slug": "thunder-mark",
+      "description": "Fractal lightning bolt splitting through runic Norse sigils. Sharp angles and sudden raw energy capturing nature pure fury.",
+      "price": 329,
+      "comparePrice": 450,
+      "discount": 26,
+      "images": [
+        "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1560707303-4e980ce876ad?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Men",
+      "gender": "Men",
+      "placement": [
+        "Wrist",
+        "Neck",
+        "Arm"
+      ],
+      "sizes": [
+        "Small",
+        "Medium"
+      ],
+      "tags": [
+        "thunder",
+        "lightning",
+        "energy",
+        "minimal"
+      ],
+      "stock": 80,
+      "sku": "TT-PRD-018",
+      "rating": 4.6,
+      "reviewCount": 54,
+      "featured": false,
+      "trending": false,
+      "newArrival": true,
+      "bestSeller": false,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_019",
+      "name": "Lost Soul",
+      "slug": "lost-soul",
+      "description": "A shadowy cloaked wanderer holding an arcane lantern amidst creeping fog. Melancholic, cinematic, and profoundly introspective.",
+      "price": 439,
+      "comparePrice": 599,
+      "discount": 26,
+      "images": [
+        "https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Dark",
+      "gender": "Unisex",
+      "placement": [
+        "Arm",
+        "Shoulder"
+      ],
+      "sizes": [
+        "Medium",
+        "Large"
+      ],
+      "tags": [
+        "lantern",
+        "dark",
+        "fog",
+        "wanderer"
+      ],
+      "stock": 39,
+      "sku": "TT-PRD-019",
+      "rating": 4.8,
+      "reviewCount": 77,
+      "featured": false,
+      "trending": true,
+      "newArrival": true,
+      "bestSeller": false,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_020",
+      "name": "Cosmic Eye",
+      "slug": "cosmic-eye",
+      "description": "An open iris containing swirling star clusters, nebula gas rings, and gravitational waves. Intricate stipple shading that deepens like a midnight sky.",
+      "price": 379,
+      "comparePrice": 499,
+      "discount": 24,
+      "images": [
+        "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Spiritual",
+      "gender": "Unisex",
+      "placement": [
+        "Arm",
+        "Wrist",
+        "Neck"
+      ],
+      "sizes": [
+        "Small",
+        "Medium"
+      ],
+      "tags": [
+        "cosmic",
+        "eye",
+        "space",
+        "galaxy"
+      ],
+      "stock": 58,
+      "sku": "TT-PRD-020",
+      "rating": 4.9,
+      "reviewCount": 95,
+      "featured": false,
+      "trending": false,
+      "newArrival": true,
+      "bestSeller": false,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_021",
+      "name": "Dark Butterfly",
+      "slug": "dark-butterfly",
+      "description": "Fine-needle gothic butterfly with razor-laced wing borders and bleeding ink textures. Gen-Z high-fashion street staple.",
+      "price": 339,
+      "comparePrice": 480,
+      "discount": 29,
+      "images": [
+        "https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1560707303-4e980ce876ad?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Women",
+      "gender": "Women",
+      "placement": [
+        "Wrist",
+        "Neck",
+        "Ankle",
+        "Chest"
+      ],
+      "sizes": [
+        "Small",
+        "Medium"
+      ],
+      "tags": [
+        "butterfly",
+        "goth",
+        "delicate",
+        "fashion"
+      ],
+      "stock": 110,
+      "sku": "TT-PRD-021",
+      "rating": 4.9,
+      "reviewCount": 172,
+      "featured": true,
+      "trending": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_022",
+      "name": "Silent Warrior",
+      "slug": "silent-warrior",
+      "description": "Blindfolded spartan guardian leaning upon an obsidian broadsword. Minimalist brushwork conveying stoic resolve and quiet power.",
+      "price": 479,
+      "comparePrice": 650,
+      "discount": 26,
+      "images": [
+        "https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Men",
+      "gender": "Men",
+      "placement": [
+        "Arm",
+        "Chest",
+        "Back"
+      ],
+      "sizes": [
+        "Medium",
+        "Large"
+      ],
+      "tags": [
+        "warrior",
+        "sword",
+        "stoic",
+        "men"
+      ],
+      "stock": 45,
+      "sku": "TT-PRD-022",
+      "rating": 4.8,
+      "reviewCount": 89,
+      "featured": false,
+      "trending": false,
+      "newArrival": false,
+      "bestSeller": false,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_023",
+      "name": "Black Lotus",
+      "slug": "black-lotus",
+      "description": "Sacred water lily blossoming out of dark murky depths into unblemished clarity. Balanced petals, delicate pistil dots, and fine-line geometry.",
+      "price": 359,
+      "comparePrice": 499,
+      "discount": 28,
+      "images": [
+        "https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Women",
+      "gender": "Women",
+      "placement": [
+        "Wrist",
+        "Back",
+        "Neck"
+      ],
+      "sizes": [
+        "Small",
+        "Medium"
+      ],
+      "tags": [
+        "lotus",
+        "spiritual",
+        "bloom",
+        "clean"
+      ],
+      "stock": 95,
+      "sku": "TT-PRD-023",
+      "rating": 4.9,
+      "reviewCount": 133,
+      "featured": false,
+      "trending": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_024",
+      "name": "Night Rider",
+      "slug": "night-rider",
+      "description": "Grim skeletal renegade astride a roaring café racer framed by retro 80s dystopian gridlines. Edgy, rebellious, and unapologetic.",
+      "price": 499,
+      "comparePrice": 699,
+      "discount": 28,
+      "images": [
+        "https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Men",
+      "gender": "Men",
+      "placement": [
+        "Arm",
+        "Back"
+      ],
+      "sizes": [
+        "Large"
+      ],
+      "tags": [
+        "motorcycle",
+        "skull",
+        "rider",
+        "rebel"
+      ],
+      "stock": 33,
+      "sku": "TT-PRD-024",
+      "rating": 4.8,
+      "reviewCount": 71,
+      "featured": false,
+      "trending": false,
+      "newArrival": true,
+      "bestSeller": false,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_025",
+      "name": "Ancient Symbol",
+      "slug": "ancient-symbol",
+      "description": "Alchemical glyph of mercury and salt surrounded by forgotten primordial runes. Minimalist esoteric mark for the subtle initiate.",
+      "price": 299,
+      "comparePrice": 399,
+      "discount": 25,
+      "images": [
+        "https://images.unsplash.com/photo-1560707303-4e980ce876ad?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Minimal",
+      "gender": "Unisex",
+      "placement": [
+        "Finger",
+        "Wrist",
+        "Neck"
+      ],
+      "sizes": [
+        "Small"
+      ],
+      "tags": [
+        "rune",
+        "alchemy",
+        "ancient",
+        "minimal"
+      ],
+      "stock": 140,
+      "sku": "TT-PRD-025",
+      "rating": 4.7,
+      "reviewCount": 68,
+      "featured": false,
+      "trending": false,
+      "newArrival": false,
+      "bestSeller": false,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_026",
+      "name": "Crimson Heart",
+      "slug": "crimson-heart",
+      "description": "Anatomical cardiovascular organ wound with barbed wire and weeping black botanical vines. Dark romanticism for genuine passion.",
+      "price": 419,
+      "comparePrice": 580,
+      "discount": 28,
+      "images": [
+        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-25-213623-1790352431536-219242.png",
+        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-25-213656-1790352439233-756319.png"
+      ],
+      "category": "Dark",
+      "gender": "Unisex",
+      "placement": [
+        "Chest",
+        "Arm"
+      ],
+      "sizes": [
+        "Small",
+        "Medium"
+      ],
+      "tags": [
+        "heart",
+        "barbed-wire",
+        "romantic",
+        "dark"
+      ],
+      "stock": 52,
+      "sku": "TT-PRD-026",
+      "rating": 4.8,
+      "reviewCount": 81,
+      "featured": false,
+      "trending": true,
+      "newArrival": false,
+      "bestSeller": false,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-25T16:07:22.629Z",
+      "available": true
+    },
+    {
+      "_id": "prd_027",
+      "name": "Ghost Flower",
+      "slug": "ghost-flower",
+      "description": "Translucent monotropa uniflora bleeding into monochromatic smoke rings. Mysterious, ethereal, and subtle in daylight.",
+      "price": 369,
+      "comparePrice": 499,
+      "discount": 26,
+      "images": [
+        "https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Nature",
+      "gender": "Women",
+      "placement": [
+        "Arm",
+        "Wrist",
+        "Ankle"
+      ],
+      "sizes": [
+        "Small",
+        "Medium"
+      ],
+      "tags": [
+        "flower",
+        "ghost",
+        "smoke",
+        "nature"
+      ],
+      "stock": 63,
+      "sku": "TT-PRD-027",
+      "rating": 4.9,
+      "reviewCount": 89,
+      "featured": false,
+      "trending": false,
+      "newArrival": true,
+      "bestSeller": false,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_028",
+      "name": "Urban Skull",
+      "slug": "urban-skull",
+      "description": "Cybernetic cranium etched with streetwear graffiti tags and barbed wire sutures. A striking testament to concrete jungle grit.",
+      "price": 469,
+      "comparePrice": 650,
+      "discount": 28,
+      "images": [
+        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-25-213319-1790352258657-845704.png",
+        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-25-213444-1790352293289-203953.png"
+      ],
+      "category": "Dark",
+      "gender": "Men",
+      "placement": [
+        "Arm",
+        "Shoulder",
+        "Chest"
+      ],
+      "sizes": [
+        "Medium",
+        "Large"
+      ],
+      "tags": [
+        "skull",
+        "urban",
+        "streetwear",
+        "dark"
+      ],
+      "stock": 46,
+      "sku": "TT-PRD-028",
+      "rating": 4.8,
+      "reviewCount": 96,
+      "featured": false,
+      "trending": true,
+      "newArrival": false,
+      "bestSeller": false,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-25T16:04:59.915Z",
+      "available": true
+    },
+    {
+      "_id": "prd_029",
+      "name": "Eclipse",
+      "slug": "eclipse",
+      "description": "Black solar disc surrounded by shimmering coronal light rays and descending lunar shadow geometry. Understated elegance.",
+      "price": 349,
+      "comparePrice": 480,
+      "discount": 27,
+      "images": [
+        "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1560707303-4e980ce876ad?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Minimal",
+      "gender": "Unisex",
+      "placement": [
+        "Wrist",
+        "Neck",
+        "Finger"
+      ],
+      "sizes": [
+        "Small",
+        "Medium"
+      ],
+      "tags": [
+        "eclipse",
+        "sun",
+        "moon",
+        "minimal"
+      ],
+      "stock": 87,
+      "sku": "TT-PRD-029",
+      "rating": 4.9,
+      "reviewCount": 114,
+      "featured": true,
+      "trending": true,
+      "newArrival": false,
+      "bestSeller": true,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "prd_030",
+      "name": "Wanderer",
+      "slug": "wanderer",
+      "description": "Vintage brass nautical compass encircled by jagged alpine mountain peaks and pine silhouettes. For those driven by wanderlust.",
+      "price": 429,
+      "comparePrice": 599,
+      "discount": 28,
+      "images": [
+        "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?auto=format&fit=crop&w=800&q=80"
+      ],
+      "category": "Nature",
+      "gender": "Unisex",
+      "placement": [
+        "Arm",
+        "Back"
+      ],
+      "sizes": [
+        "Medium",
+        "Large"
+      ],
+      "tags": [
+        "compass",
+        "mountains",
+        "wanderer",
+        "travel"
+      ],
+      "stock": 55,
+      "sku": "TT-PRD-030",
+      "rating": 4.8,
+      "reviewCount": 101,
+      "featured": false,
+      "trending": false,
+      "newArrival": false,
+      "bestSeller": true,
+      "isPublished": true,
+      "createdAt": "2026-09-24T03:34:34.100Z",
+      "updatedAt": "2026-09-24T03:34:34.100Z"
+    }
+  ],
+  "categories": [
+    {
+      "_id": "cat_001",
+      "name": "Men",
+      "slug": "men",
+      "description": "Bold lines, dark mythological beasts, and geometric chest & arm pieces.",
+      "image": "https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?auto=format&fit=crop&w=800&q=80",
+      "status": "active",
+      "featured": true,
+      "createdAt": "2026-09-24T03:34:34.099Z",
+      "updatedAt": "2026-09-24T03:34:34.099Z"
+    },
+    {
+      "_id": "cat_002",
+      "name": "Women",
+      "slug": "women",
+      "description": "Delicate botanicals, celestial phases, and sensual fine-line silhouettes.",
+      "image": "https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?auto=format&fit=crop&w=800&q=80",
+      "status": "active",
+      "featured": true,
+      "createdAt": "2026-09-24T03:34:34.099Z",
+      "updatedAt": "2026-09-24T03:34:34.099Z"
+    },
+    {
+      "_id": "cat_003",
+      "name": "Anime",
+      "slug": "anime",
+      "description": "Iconic dark shonen cursed marks, demon eyes, and cyberpunk manga ink.",
+      "image": "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-26-135511-1790412938598-237424.png",
+      "status": "active",
+      "featured": true,
+      "createdAt": "2026-09-24T03:34:34.099Z",
+      "updatedAt": "2026-09-26T08:55:43.913Z"
+    },
+    {
+      "_id": "cat_004",
+      "name": "Minimal",
+      "slug": "minimal",
+      "description": "Single-needle micro designs, clean typography, and subtle coordinates.",
+      "image": "https://images.unsplash.com/photo-1560707303-4e980ce876ad?auto=format&fit=crop&w=800&q=80",
+      "status": "active",
+      "featured": true,
+      "createdAt": "2026-09-24T03:34:34.099Z",
+      "updatedAt": "2026-09-24T03:34:34.099Z"
+    },
+    {
+      "_id": "cat_005",
+      "name": "Dark",
+      "slug": "dark",
+      "description": "Occult symbolism, gothic sigils, fallen wings, and raven talons.",
+      "image": "https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?auto=format&fit=crop&w=800&q=80",
+      "status": "active",
+      "featured": true,
+      "createdAt": "2026-09-24T03:34:34.099Z",
+      "updatedAt": "2026-09-24T03:34:34.099Z"
+    },
+    {
+      "_id": "cat_006",
+      "name": "Japanese",
+      "slug": "japanese",
+      "description": "Irezumi dragons, raging Oni masks, cherry blossoms, and samurai katanas.",
+      "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=80",
+      "status": "active",
+      "featured": true,
+      "createdAt": "2026-09-24T03:34:34.099Z",
+      "updatedAt": "2026-09-24T03:34:34.099Z"
+    },
+    {
+      "_id": "cat_007",
+      "name": "Spiritual",
+      "slug": "spiritual",
+      "description": "Sacred geometry, unalomes, third eyes, mandalas, and chakras.",
+      "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-09-24T03:34:34.099Z",
+      "updatedAt": "2026-09-24T03:34:34.099Z"
+    },
+    {
+      "_id": "cat_008",
+      "name": "Nature",
+      "slug": "nature",
+      "description": "Midnight flora, predatory serpents, wild wolves, and moon-lit ravens.",
+      "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=800&q=80",
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-09-24T03:34:34.099Z",
+      "updatedAt": "2026-09-24T03:34:34.099Z"
+    },
+    {
+      "_id": "cat_009",
+      "name": "Couple",
+      "slug": "couple",
+      "description": "Interlocking geometric oaths, dual moons, and complementary soul marks.",
+      "image": "https://images.unsplash.com/photo-1542385151-efd9000785a0?auto=format&fit=crop&w=800&q=80",
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-09-24T03:34:34.099Z",
+      "updatedAt": "2026-09-24T03:34:34.099Z"
+    },
+    {
+      "_id": "cat_010",
+      "name": "Cyberpunk",
+      "slug": "cyberpunk",
+      "description": "Subdermal circuit boards, biometric barcodes, and dystopian neural prints.",
+      "image": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=800&q=80",
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-09-24T03:34:34.099Z",
+      "updatedAt": "2026-09-24T03:34:34.099Z"
+    }
+  ],
+  "orders": [
+    {
+      "_id": "ord_1790307882016",
+      "orderId": "TT-2026-3145",
+      "user": "usr_admin_001",
+      "customerDetails": {
+        "name": "Twilight Master Admin",
+        "email": "admin@twilightthinks.com",
+        "phone": "+91 99999 88888"
+      },
+      "items": [
+        {
+          "product": null,
+          "name": "Custom Tattoo (Symbol)",
+          "image": "data:image/png;base64,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",
+          "size": "Medium",
+          "quantity": 1,
+          "price": 449,
+          "isCustom": true,
+          "customDetails": {
+            "type": "Symbol",
+            "customText": "Solitude in Motion",
+            "font": "Gothic Serif",
+            "placement": "Finger",
+            "size": "Medium",
+            "artworkUrl": "data:image/png;base64,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"
+          }
+        }
+      ],
+      "shippingAddress": {
+        "street": "uhq8iniqdj9",
+        "city": "chennai",
+        "state": "Maharashtra",
+        "pincode": "457896",
+        "country": "India"
+      },
+      "deliveryMethod": "Standard",
+      "shippingCost": 99,
+      "discountAmount": 0,
+      "couponApplied": "",
+      "subtotal": 449,
+      "totalAmount": 548,
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "Pending",
+      "status": "Confirmed",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-09-25T03:44:42.015Z",
+          "note": "Order placed successfully via Cash on Delivery"
+        }
+      ],
+      "createdAt": "2026-09-25T03:44:42.016Z"
+    },
+    {
+      "_id": "ord_1790222745094",
+      "orderId": "TT-2026-3232",
+      "user": null,
+      "customerDetails": {
+        "name": "Aarav Mehta",
+        "email": "aarav@example.com",
+        "phone": "9876543210"
+      },
+      "items": [
+        {
+          "product": "prd_001",
+          "name": "Midnight Serpent",
+          "image": "https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?auto=format&fit=crop&w=800&q=80",
+          "size": "Medium",
+          "quantity": 2,
+          "price": 399,
+          "isCustom": false
+        }
+      ],
+      "shippingAddress": {
+        "street": "Flat 402, Highline Towers, Pali Hill",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pincode": "400050",
+        "country": "India"
+      },
+      "deliveryMethod": "Standard",
+      "shippingCost": 99,
+      "discountAmount": 0,
+      "couponApplied": "",
+      "subtotal": 798,
+      "totalAmount": 897,
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "status": "Confirmed",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-09-24T04:05:45.092Z",
+          "note": "Order placed successfully via UPI"
+        }
+      ],
+      "createdAt": "2026-09-24T04:05:45.108Z"
+    },
+    {
+      "_id": "ord_001",
+      "orderId": "TT-2026-9001",
+      "customerDetails": {
+        "name": "Aarav Mehta",
+        "email": "aarav.m@example.com",
+        "phone": "+91 98765 11223"
+      },
+      "items": [
+        {
+          "name": "Midnight Serpent",
+          "image": "https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?auto=format&fit=crop&w=400&q=80",
+          "size": "Medium",
+          "quantity": 2,
+          "price": 399
+        },
+        {
+          "name": "Broken Halo",
+          "image": "https://images.unsplash.com/photo-1560707303-4e980ce876ad?auto=format&fit=crop&w=400&q=80",
+          "size": "Small",
+          "quantity": 1,
+          "price": 349
+        }
+      ],
+      "shippingAddress": {
+        "street": "402, Highline Residency, Bandra West",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pincode": "400050",
+        "country": "India"
+      },
+      "deliveryMethod": "Express",
+      "shippingCost": 0,
+      "discountAmount": 100,
+      "couponApplied": "FIRSTDROP",
+      "subtotal": 1147,
+      "totalAmount": 1047,
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "status": "Delivered",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-09-19T03:34:31.098Z",
+          "note": "Order placed & UPI verified"
+        },
+        {
+          "status": "Processing",
+          "timestamp": "2026-09-20T03:34:31.098Z",
+          "note": "Packed at Dark Studio Mumbai"
+        },
+        {
+          "status": "Shipped",
+          "timestamp": "2026-09-21T03:34:31.098Z",
+          "note": "Dispatched via Bluedart AWB#998231"
+        },
+        {
+          "status": "Delivered",
+          "timestamp": "2026-09-23T03:34:31.098Z",
+          "note": "Delivered to recipient"
+        }
+      ],
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "ord_002",
+      "orderId": "TT-2026-9002",
+      "customerDetails": {
+        "name": "Kavya Singhania",
+        "email": "kavya.s@example.com",
+        "phone": "+91 98112 33445"
+      },
+      "items": [
+        {
+          "name": "Japanese Oni",
+          "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=400&q=80",
+          "size": "Large",
+          "quantity": 1,
+          "price": 549
+        }
+      ],
+      "shippingAddress": {
+        "street": "Flat 12B, Regency Heights, Indiranagar",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560038",
+        "country": "India"
+      },
+      "deliveryMethod": "Standard",
+      "shippingCost": 0,
+      "discountAmount": 0,
+      "couponApplied": "",
+      "subtotal": 549,
+      "totalAmount": 549,
+      "paymentMethod": "Card",
+      "paymentStatus": "Paid",
+      "status": "Shipped",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-09-22T03:34:31.098Z",
+          "note": "Order placed and paid"
+        },
+        {
+          "status": "Processing",
+          "timestamp": "2026-09-23T03:34:31.098Z",
+          "note": "Sealed with application kit"
+        },
+        {
+          "status": "Shipped",
+          "timestamp": "2026-09-24T03:34:31.098Z",
+          "note": "In transit via Delhivery"
+        }
+      ],
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "ord_003",
+      "orderId": "TT-2026-9003",
+      "customerDetails": {
+        "name": "Siddharth Rao",
+        "email": "siddharth.r@example.com",
+        "phone": "+91 99001 22334"
+      },
+      "items": [
+        {
+          "name": "Shadow Raven",
+          "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=400&q=80",
+          "size": "Large",
+          "quantity": 1,
+          "price": 449
+        },
+        {
+          "name": "Custom Tattoo — Solitude in Motion",
+          "image": "https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?auto=format&fit=crop&w=400&q=80",
+          "size": "Large",
+          "quantity": 1,
+          "price": 649,
+          "isCustom": true
+        }
+      ],
+      "shippingAddress": {
+        "street": "House 88, Vasant Vihar",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "pincode": "110057",
+        "country": "India"
+      },
+      "deliveryMethod": "Express",
+      "shippingCost": 50,
+      "discountAmount": 109,
+      "couponApplied": "TWILIGHT10",
+      "subtotal": 1098,
+      "totalAmount": 1039,
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "status": "Processing",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-09-23T03:34:31.098Z",
+          "note": "Order accepted"
+        },
+        {
+          "status": "Processing",
+          "timestamp": "2026-09-24T03:34:31.098Z",
+          "note": "Custom stencil printing underway"
+        }
+      ],
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "ord_004",
+      "orderId": "TT-2026-9004",
+      "customerDetails": {
+        "name": "Pooja Iyer",
+        "email": "pooja.i@example.com",
+        "phone": "+91 97766 55443"
+      },
+      "items": [
+        {
+          "name": "Dark Butterfly",
+          "image": "https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?auto=format&fit=crop&w=400&q=80",
+          "size": "Small",
+          "quantity": 2,
+          "price": 339
+        }
+      ],
+      "shippingAddress": {
+        "street": "Plot 45, Jubilee Hills Road No 36",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "pincode": "500033",
+        "country": "India"
+      },
+      "deliveryMethod": "Standard",
+      "shippingCost": 0,
+      "discountAmount": 0,
+      "couponApplied": "",
+      "subtotal": 678,
+      "totalAmount": 678,
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "Pending",
+      "status": "Confirmed",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-09-24T03:34:31.098Z",
+          "note": "COD order confirmed with customer"
+        }
+      ],
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "ord_005",
+      "orderId": "TT-2026-9005",
+      "customerDetails": {
+        "name": "Aditya Chawla",
+        "email": "aditya.c@example.com",
+        "phone": "+91 98881 22339"
+      },
+      "items": [
+        {
+          "name": "Lunar Wolf",
+          "image": "https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?auto=format&fit=crop&w=400&q=80",
+          "size": "Medium",
+          "quantity": 1,
+          "price": 499
+        },
+        {
+          "name": "Wild Rose",
+          "image": "https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?auto=format&fit=crop&w=400&q=80",
+          "size": "Small",
+          "quantity": 1,
+          "price": 349
+        }
+      ],
+      "shippingAddress": {
+        "street": "Sector 15, House 312",
+        "city": "Chandigarh",
+        "state": "Punjab",
+        "pincode": "160015",
+        "country": "India"
+      },
+      "deliveryMethod": "Standard",
+      "shippingCost": 0,
+      "discountAmount": 0,
+      "couponApplied": "",
+      "subtotal": 848,
+      "totalAmount": 848,
+      "paymentMethod": "UPI",
+      "paymentStatus": "Paid",
+      "status": "Out for Delivery",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-09-21T03:34:31.098Z",
+          "note": "Order accepted"
+        },
+        {
+          "status": "Processing",
+          "timestamp": "2026-09-22T03:34:31.098Z",
+          "note": "Packed"
+        },
+        {
+          "status": "Shipped",
+          "timestamp": "2026-09-23T03:34:31.098Z",
+          "note": "Arrived at Chandigarh hub"
+        },
+        {
+          "status": "Out for Delivery",
+          "timestamp": "2026-09-24T03:34:31.098Z",
+          "note": "Courier executive assigned"
+        }
+      ],
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    }
+  ],
+  "customTattoos": [
+    {
+      "_id": "ct_1790311810961",
+      "requestId": "CT-2026-2966",
+      "user": "usr_admin_001",
+      "customer": {
+        "name": "Rohan Sharma",
+        "email": "admin@twilightthinks.com",
+        "phone": "+91 98765 11223"
+      },
+      "type": "Custom Artwork",
+      "style": "Custom Artwork",
+      "tattooIdea": "Japanese Kitsune with Eclipse Moon",
+      "customText": "Solitude in Motion",
+      "font": "Gothic Serif",
+      "description": "Add crescent moon behind the kitsune, make linework finer, remove flowers",
+      "requiredChanges": "Add crescent moon behind the kitsune, make linework finer, remove flowers",
+      "placement": "Arm",
+      "size": "Medium",
+      "artworkUrl": "https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?auto=format&fit=crop&w=400&q=80",
+      "budget": "₹2,000 - ₹3,500",
+      "preferredDate": "",
+      "preferredTime": "",
+      "notes": "",
+      "price": 1250,
+      "quotedPrice": 1250,
+      "isCustomerConfirmed": true,
+      "status": "Confirmed",
+      "internalNotes": "High detail linework with custom eclipse gradient stencil included. | Customer accepted quotation of ₹1250 on 25/9/2026",
+      "createdAt": "2026-09-25T04:50:10.961Z",
+      "updatedAt": "2026-09-25T05:02:23.891Z",
+      "customerConfirmationDate": "2026-09-25T05:02:23.613Z"
+    },
+    {
+      "_id": "ct_1790307766406",
+      "requestId": "CT-2026-3856",
+      "user": "usr_admin_001",
+      "customer": {
+        "name": "Custom Collector",
+        "email": "guest@twilightthinks.com"
+      },
+      "type": "Symbol",
+      "customText": "Solitude in Motion",
+      "font": "Gothic Serif",
+      "placement": "Finger",
+      "size": "Medium",
+      "artworkUrl": "data:image/png;base64,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",
+      "notes": "",
+      "price": 449,
+      "status": "New",
+      "internalNotes": "Request submitted online",
+      "createdAt": "2026-09-25T03:42:46.406Z"
+    },
+    {
+      "_id": "ct_001",
+      "requestId": "CT-2026-1001",
+      "customer": {
+        "name": "Rohan Mehra",
+        "email": "rohan.m@example.com",
+        "phone": "+91 98765 43210"
+      },
+      "type": "Custom Artwork",
+      "customText": "Solitude in Motion",
+      "font": "Gothic Serif",
+      "placement": "Arm",
+      "size": "Large",
+      "artworkUrl": "https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?auto=format&fit=crop&w=600&q=80",
+      "notes": "Please keep the stippling very fine around the raven feathers.",
+      "price": 649,
+      "status": "In Production",
+      "internalNotes": "Vector art approved by lead artist. Shipped to printer unit.",
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "ct_002",
+      "requestId": "CT-2026-1002",
+      "customer": {
+        "name": "Tara Mukherjee",
+        "email": "tara.m@example.com",
+        "phone": "+91 98220 11445"
+      },
+      "type": "Text",
+      "customText": "Memento Vivere",
+      "font": "Minimalist Sans",
+      "placement": "Wrist",
+      "size": "Small",
+      "artworkUrl": "",
+      "notes": "Clean typewriter kerning with subtle spacing.",
+      "price": 399,
+      "status": "Approved",
+      "internalNotes": "Proof sent to Tara. Awaiting queue release.",
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "ct_003",
+      "requestId": "CT-2026-1003",
+      "customer": {
+        "name": "Arjun Das",
+        "email": "arjun.d@example.com",
+        "phone": "+91 99100 88223"
+      },
+      "type": "Photo",
+      "customText": "",
+      "font": "",
+      "placement": "Chest",
+      "size": "Medium",
+      "artworkUrl": "https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?auto=format&fit=crop&w=600&q=80",
+      "notes": "Convert photo of my vintage bike crest into high contrast stencil.",
+      "price": 549,
+      "status": "Designing",
+      "internalNotes": "Stencil conversion underway in Studio B.",
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "ct_004",
+      "requestId": "CT-2026-1004",
+      "customer": {
+        "name": "Zara Khan",
+        "email": "zara.k@example.com",
+        "phone": "+91 97654 32190"
+      },
+      "type": "Symbol",
+      "customText": "1998 // Infinite",
+      "font": "Chicano Script",
+      "placement": "Neck",
+      "size": "Small",
+      "artworkUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+      "notes": "Place the infinity knot right between the roman numerals.",
+      "price": 449,
+      "status": "New",
+      "internalNotes": "New submission received today.",
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "ct_005",
+      "requestId": "CT-2026-1005",
+      "customer": {
+        "name": "Karan Singhal",
+        "email": "karan.s@example.com",
+        "phone": "+91 98334 55122"
+      },
+      "type": "Custom Artwork",
+      "customText": "Cyber Ronin",
+      "font": "Japanese Katakana",
+      "placement": "Back",
+      "size": "Large",
+      "artworkUrl": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
+      "notes": "Needs to span 18cm across shoulder blades.",
+      "price": 649,
+      "status": "Reviewing",
+      "internalNotes": "Checking resolution suitability for large template.",
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    }
+  ],
+  "reviews": [
+    {
+      "_id": "rev_001",
+      "userName": "Aarav Mehta",
+      "productName": "Midnight Serpent",
+      "rating": 5,
+      "title": "Indistinguishable from a real needle tattoo",
+      "comment": "Applied it to my forearm before Goa trip. Was dark navy on day 1, then turned deep jet black by hour 36. Swam in the ocean for 4 days straight and it stayed intact. Everyone asked which studio I went to.",
+      "isVerifiedBuyer": true,
+      "status": "Approved",
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "rev_002",
+      "userName": "Kavya Singhania",
+      "productName": "Dark Butterfly",
+      "rating": 5,
+      "title": "The linework is breathtakingly sharp",
+      "comment": "The fine-needle details are so crisp! The formula is completely painless and feels just like soft skin. Lasted a solid 14 days before starting to fade evenly.",
+      "isVerifiedBuyer": true,
+      "status": "Approved",
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "rev_003",
+      "userName": "Rohan Sen",
+      "productName": "Japanese Oni",
+      "rating": 5,
+      "title": "Worth every rupee",
+      "comment": "The demon horns and cloud patterns are insane. Used it for our music video shoot and it stole the show. Easy to apply with the wet towel method.",
+      "isVerifiedBuyer": true,
+      "status": "Approved",
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "rev_004",
+      "userName": "Ananya Sharma",
+      "productName": "Wild Rose",
+      "rating": 5,
+      "title": "Minimalist & sensual",
+      "comment": "Placed this along my collarbone. It looks like an authentic stick-and-poke art piece from Berlin. 10/10 recommend TWILIGHT THINKS.",
+      "isVerifiedBuyer": true,
+      "status": "Approved",
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "rev_005",
+      "userName": "Devansh Verma",
+      "productName": "Lunar Wolf",
+      "rating": 5,
+      "title": "Lasted full 12 days through gym sweat",
+      "comment": "Was skeptical about sweat resistance, but cardio and daily showers did nothing to it. Deep matte finish, no shiny sticker plastic film look at all.",
+      "isVerifiedBuyer": true,
+      "status": "Approved",
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "rev_006",
+      "userName": "Sanya Kapoor",
+      "productName": "Moon Phase",
+      "rating": 5,
+      "title": "Obsessed with the gradient development",
+      "comment": "Watching the formula react with my skin amino acids over 24 hours was so cool. The packaging was luxury editorial black box. Will buy again!",
+      "isVerifiedBuyer": true,
+      "status": "Approved",
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "rev_007",
+      "userName": "Vikram Joshi",
+      "productName": "Samurai Spirit",
+      "rating": 5,
+      "title": "Pure Japanese art on skin",
+      "comment": "Extremely detailed katana blades. Got endless compliments at the gallery opening. TWILIGHT THINKS is redefining body art.",
+      "isVerifiedBuyer": true,
+      "status": "Approved",
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "rev_008",
+      "userName": "Priya Nambiar",
+      "productName": "Black Lotus",
+      "rating": 5,
+      "title": "Gentle on sensitive skin",
+      "comment": "I usually break out with chemical henna or temporary tattoos, but this plant-based Jagua formula had zero irritation. Clean, organic, gorgeous.",
+      "isVerifiedBuyer": true,
+      "status": "Approved",
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "rev_009",
+      "userName": "Ishaan Roy",
+      "productName": "Shadow Raven",
+      "rating": 5,
+      "title": "Gothic masterpiece",
+      "comment": "The wing shading has real depth. It is not flat black; it looks like textured ink washed with carbon shading. Pure class.",
+      "isVerifiedBuyer": true,
+      "status": "Approved",
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "rev_010",
+      "userName": "Meera Deshmukh",
+      "productName": "Broken Halo",
+      "rating": 5,
+      "title": "Subtle yet provocative",
+      "comment": "Put it behind my ear and it gives off such an edgy high-fashion vibe. Application took 30 seconds.",
+      "isVerifiedBuyer": true,
+      "status": "Approved",
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    }
+  ],
+  "coupons": [
+    {
+      "_id": "cpn_001",
+      "code": "TWILIGHT10",
+      "discountType": "Percentage",
+      "discountValue": 10,
+      "minimumOrder": 499,
+      "maximumDiscount": 200,
+      "active": true,
+      "usageLimit": 5000,
+      "usageCount": 230,
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "cpn_002",
+      "code": "INKED20",
+      "discountType": "Percentage",
+      "discountValue": 20,
+      "minimumOrder": 999,
+      "maximumDiscount": 400,
+      "active": true,
+      "usageLimit": 1000,
+      "usageCount": 145,
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "cpn_003",
+      "code": "FIRSTDROP",
+      "discountType": "Flat Discount",
+      "discountValue": 100,
+      "minimumOrder": 599,
+      "maximumDiscount": 100,
+      "active": true,
+      "usageLimit": 3000,
+      "usageCount": 412,
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "cpn_004",
+      "code": "DARKVIP",
+      "discountType": "Percentage",
+      "discountValue": 25,
+      "minimumOrder": 1499,
+      "maximumDiscount": 600,
+      "active": true,
+      "usageLimit": 500,
+      "usageCount": 88,
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "cpn_005",
+      "code": "FREESHIP",
+      "discountType": "Flat Discount",
+      "discountValue": 50,
+      "minimumOrder": 399,
+      "maximumDiscount": 50,
+      "active": true,
+      "usageLimit": 10000,
+      "usageCount": 890,
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    }
+  ],
+  "homepageSections": [
+    {
+      "_id": "sec_001",
+      "key": "hero",
+      "title": "TWILIGHT THINKS",
+      "subtitle": "Semi-permanent tattoos designed for personal style, self-expression and experimentation.",
+      "badge": "NEW GENERATION PLANT-BASED INK",
+      "content": {
+        "primaryCta": "SHOP TATTOOS",
+        "primaryCtaLink": "/shop",
+        "secondaryCta": "CREATE YOUR OWN",
+        "secondaryCtaLink": "/custom-tattoo",
+        "headlinePrefix": "INK WITHOUT",
+        "headlineEmphasis": "REGRET.",
+        "heroImage": "https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?auto=format&fit=crop&w=1600&q=85",
+        "durationTag": "1–2 WEEKS LASTING",
+        "waterproofTag": "100% WATERPROOF",
+        "organicTag": "ORGANIC JAGUA FORMULA"
+      },
+      "isActive": true,
+      "order": 1,
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "sec_002",
+      "key": "categories",
+      "title": "SHOP BY CATEGORY",
+      "subtitle": "Explore curated dark aesthetics across aesthetic genres.",
+      "badge": "COLLECTIONS",
+      "content": {
+        "displayLimit": 6
+      },
+      "isActive": true,
+      "order": 2,
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "sec_003",
+      "key": "trending",
+      "title": "TRENDING NOW",
+      "subtitle": "The most coveted ink silhouettes moving across our dark community.",
+      "badge": "HOTTEST DROPS",
+      "content": {
+        "displayLimit": 4
+      },
+      "isActive": true,
+      "order": 3,
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "sec_004",
+      "key": "newArrivals",
+      "title": "NEW ARRIVALS",
+      "subtitle": "Freshly synthesized botanical designs straight from our dark studio.",
+      "badge": "JUST RELEASED",
+      "content": {
+        "displayLimit": 8
+      },
+      "isActive": true,
+      "order": 4,
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "sec_005",
+      "key": "customTattoo",
+      "title": "CREATE YOUR OWN TATTOO",
+      "subtitle": "Turn your idea, memory, name, photo or artwork into a personalized semi-permanent tattoo.",
+      "badge": "STUDIO BESPOKE",
+      "content": {
+        "ctaText": "START CUSTOMIZING NOW",
+        "startingPrice": "Starts at ₹399",
+        "image": "https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?auto=format&fit=crop&w=1200&q=80"
+      },
+      "isActive": true,
+      "order": 5,
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "sec_006",
+      "key": "featured",
+      "title": "FEATURED EDITORIAL",
+      "subtitle": "Dark aesthetics meeting Gen-Z fashion and self-expression.",
+      "badge": "VOL. 04 LOOKBOOK",
+      "content": {
+        "editorialTitle": "THE MIDNIGHT CANVAS",
+        "editorialText": "We believe identity is fluid. TWILIGHT THINKS gives you the luxury of needlework without the lifelong permanence. Made with organic Genipa fruit juice, our ink sinks into your skin first layer and develops with your body natural chemistry.",
+        "image1": "https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?auto=format&fit=crop&w=800&q=80",
+        "image2": "https://images.unsplash.com/photo-1560707303-4e980ce876ad?auto=format&fit=crop&w=800&q=80"
+      },
+      "isActive": true,
+      "order": 6,
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "sec_007",
+      "key": "whyUs",
+      "title": "WHY TWILIGHT THINKS",
+      "subtitle": "Engineered for skin perfection, painless application, and zero regrets.",
+      "badge": "THE FORMULA",
+      "content": {
+        "items": [
+          {
+            "title": "1-2 WEEKS DURATION",
+            "description": "Sinks into the epidermis and fades naturally with your skin cell turnover."
+          },
+          {
+            "title": "100% WATERPROOF",
+            "description": "Survives pool swims, intense gym sessions, and daily hot showers without peeling."
+          },
+          {
+            "title": "PLANT-BASED & SKIN SAFE",
+            "description": "Crafted from organic South American Jagua fruit. Dermatologically certified, non-toxic, and vegan."
+          },
+          {
+            "title": "ZERO NEEDLES, ZERO REGRETS",
+            "description": "Applies in 60 seconds with simple water pressure. Develops into jet matte black within 24-36 hours."
+          }
+        ]
+      },
+      "isActive": true,
+      "order": 7,
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "sec_008",
+      "key": "reviews",
+      "title": "COMMUNITY VOICES",
+      "subtitle": "Real stories from over 45,000+ satisfied ink wearers.",
+      "badge": "VERIFIED REVIEWS",
+      "content": {},
+      "isActive": true,
+      "order": 8,
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    },
+    {
+      "_id": "sec_009",
+      "key": "newsletter",
+      "title": "JOIN THE TWILIGHT LIST",
+      "subtitle": "Receive private drops, secret flash sales, and new aesthetic collections directly in your inbox.",
+      "badge": "INNER CIRCLE",
+      "content": {
+        "placeholder": "Enter your email address",
+        "buttonText": "UNLOCK VIP ACCESS",
+        "perk": "Get 10% off your first drop with code FIRSTDROP"
+      },
+      "isActive": true,
+      "order": 9,
+      "createdAt": "2026-09-24T03:34:34.100Z"
+    }
+  ],
+  "settings": {
+    "studioName": "TWILIGHT THINKS",
+    "tagline": "Premium Tattoo Studio & Custom Body Art Atelier",
+    "phone": "+91 98765 43210",
+    "whatsapp": "+91 98765 43210",
+    "email": "concierge@twilightthinks.com",
+    "instagram": "https://instagram.com/twilightthinks",
+    "address": "Suite 402, Highline Atelier, Bandra West, Mumbai 400050",
+    "hours": "Mon–Sat: 10:00 AM – 8:00 PM IST",
+    "currency": "INR",
+    "currencySymbol": "₹",
+    "consultationFee": 0,
+    "minimumCustomPrice": 500,
+    "updatedAt": "2026-09-25T05:06:07.747Z",
+    "openingHours": "Mon - Sun: 11:00 AM - 09:00 PM",
+    "depositPercentage": 20,
+    "announcementBanner": "ATELIER RESERVATIONS OPEN • ALL TATTOOS DEVELOP INTO DEEP MIDNIGHT REALISM OVER 24H"
+  }
+}

@@ -104,18 +104,24 @@ app.use('/api/settings', settingsRoutes);
 // Error Handler
 app.use(errorHandler);
 
-// Start Server
+export { app };
+
+// Start Server if run directly (Render/Node)
 const startServer = async () => {
   const isMongoConnected = await connectDB();
   await store.initialize(isMongoConnected);
 
-  app.listen(PORT, () => {
-    console.log(`[TWILIGHT THINKS API] Server running in ${process.env.NODE_ENV || 'development'} mode on http://localhost:${PORT}`);
-    console.log(`[TWILIGHT THINKS API] Health check at http://localhost:${PORT}/api/health`);
-  });
+  if (!process.env.VERCEL) {
+    app.listen(PORT, () => {
+      console.log(`[TWILIGHT THINKS API] Server running in ${process.env.NODE_ENV || 'development'} mode on http://localhost:${PORT}`);
+      console.log(`[TWILIGHT THINKS API] Health check at http://localhost:${PORT}/api/health`);
+    });
+  }
 };
 
 startServer().catch(err => {
   console.error('[TWILIGHT THINKS API] Fatal startup error:', err);
-  process.exit(1);
+  if (!process.env.VERCEL) {
+    process.exit(1);
+  }
 });

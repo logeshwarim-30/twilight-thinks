@@ -33,3 +33,5 @@ dist-ssr
 # Temporary uploads
 server/uploads/*
 !server/uploads/.gitkeep
+
+.vercel

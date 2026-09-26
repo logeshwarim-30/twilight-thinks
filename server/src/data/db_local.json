@@ -47,8 +47,8 @@
       "comparePrice": 599,
       "discount": 33,
       "images": [
-        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-26-144351-1790414102175-14192.png",
-        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-26-144520-1790414127749-955590.png"
+        "/uploads/tattoo-Screenshot-2026-09-26-144351-1790414102175-14192.png",
+        "/uploads/tattoo-Screenshot-2026-09-26-144520-1790414127749-955590.png"
       ],
       "category": "Dark",
       "gender": "Unisex",
@@ -87,8 +87,8 @@
       "comparePrice": 599,
       "discount": 33,
       "images": [
-        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-25-214238-1790352801179-704626.png",
-        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-25-214307-1790352807166-822674.png"
+        "/uploads/tattoo-Screenshot-2026-09-25-214238-1790352801179-704626.png",
+        "/uploads/tattoo-Screenshot-2026-09-25-214307-1790352807166-822674.png"
       ],
       "category": "Dark",
       "gender": "Unisex",
@@ -131,8 +131,8 @@
       "comparePrice": 649,
       "discount": 31,
       "images": [
-        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-25-214518-1790352955984-270113.png",
-        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-25-214544-1790352962953-176428.png"
+        "/uploads/tattoo-Screenshot-2026-09-25-214518-1790352955984-270113.png",
+        "/uploads/tattoo-Screenshot-2026-09-25-214544-1790352962953-176428.png"
       ],
       "category": "Dark",
       "gender": "Unisex",
@@ -747,8 +747,8 @@
       "comparePrice": 749,
       "discount": 31,
       "images": [
-        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-25-213921-1790352570935-993373.png",
-        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-25-214002-1790352610519-313619.png"
+        "/uploads/tattoo-Screenshot-2026-09-25-213921-1790352570935-993373.png",
+        "/uploads/tattoo-Screenshot-2026-09-25-214002-1790352610519-313619.png"
       ],
       "category": "Japanese",
       "gender": "Men",
@@ -1112,8 +1112,8 @@
       "comparePrice": 580,
       "discount": 28,
       "images": [
-        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-25-213623-1790352431536-219242.png",
-        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-25-213656-1790352439233-756319.png"
+        "/uploads/tattoo-Screenshot-2026-09-25-213623-1790352431536-219242.png",
+        "/uploads/tattoo-Screenshot-2026-09-25-213656-1790352439233-756319.png"
       ],
       "category": "Dark",
       "gender": "Unisex",
@@ -1194,8 +1194,8 @@
       "comparePrice": 650,
       "discount": 28,
       "images": [
-        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-25-213319-1790352258657-845704.png",
-        "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-25-213444-1790352293289-203953.png"
+        "/uploads/tattoo-Screenshot-2026-09-25-213319-1790352258657-845704.png",
+        "/uploads/tattoo-Screenshot-2026-09-25-213444-1790352293289-203953.png"
       ],
       "category": "Dark",
       "gender": "Men",
@@ -1337,7 +1337,7 @@
       "name": "Anime",
       "slug": "anime",
       "description": "Iconic dark shonen cursed marks, demon eyes, and cyberpunk manga ink.",
-      "image": "http://localhost:5000/uploads/tattoo-Screenshot-2026-09-26-135511-1790412938598-237424.png",
+      "image": "/uploads/tattoo-Screenshot-2026-09-26-135511-1790412938598-237424.png",
       "status": "active",
       "featured": true,
       "createdAt": "2026-09-24T03:34:34.099Z",

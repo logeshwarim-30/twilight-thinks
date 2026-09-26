@@ -12,7 +12,11 @@ export const protect = async (req, res, next) => {
   }
 
   try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'twilight_thinks_ultra_secure_jwt_secret_key_2026_dark_editorial');
+    const secret = process.env.JWT_SECRET || (process.env.NODE_ENV === 'production' ? null : 'development_only_local_jwt_secret_key');
+    if (!secret) {
+      return res.status(500).json({ success: false, message: 'Server security configuration error: JWT_SECRET missing.' });
+    }
+    const decoded = jwt.verify(token, secret);
     const user = await store.findUserById(decoded.id);
 
     if (!user) {

@@ -2,8 +2,19 @@ import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 import { store } from '../services/dataStore.js';
 
+const getJwtSecret = () => {
+  const secret = process.env.JWT_SECRET;
+  if (!secret) {
+    if (process.env.NODE_ENV === 'production') {
+      throw new Error('[Security] JWT_SECRET environment variable is required in production.');
+    }
+    return 'development_only_local_jwt_secret_key';
+  }
+  return secret;
+};
+
 const generateToken = (id) => {
-  return jwt.sign({ id }, process.env.JWT_SECRET || 'twilight_thinks_ultra_secure_jwt_secret_key_2026_dark_editorial', {
+  return jwt.sign({ id }, getJwtSecret(), {
     expiresIn: '30d'
   });
 };

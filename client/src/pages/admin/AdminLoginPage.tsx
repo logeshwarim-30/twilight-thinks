@@ -13,9 +13,11 @@ export const AdminLoginPage: React.FC = () => {
   const [password, setPassword] = useState('TwilightAdmin@2026');
   const [loading, setLoading] = useState(false);
 
-  if (isAuthenticated && isAdmin) {
-    navigate('/admin/dashboard');
-  }
+  React.useEffect(() => {
+    if (isAuthenticated && isAdmin) {
+      navigate('/admin/dashboard', { replace: true });
+    }
+  }, [isAuthenticated, isAdmin, navigate]);
 
   const handleAdminLogin = async (e: React.FormEvent) => {
     e.preventDefault();
